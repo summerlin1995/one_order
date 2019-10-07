@@ -27,11 +27,20 @@ class WelcomeController < ApplicationController
   def other_food
     #Q3: It should return a list of every food as Food Head; with each Food Head,
         #list the pairing food from all the meal combination.
-    @apple_pie
-    @burger
-    @coke
-    @french_fries
-    @fried_chicken
+
+    a = [ "coke", "burger", "apple_pie" ]
+    b = [ ]
+    c = [ "coke", "french_fries", "fried_chicken" ]
+    d = [ "apple_pie" ]
+    e = [ ]
+
+    coke = []
+    burger = []
+    apple_pie = []
+    french_fries = []
+    fried_chicken = []
+
+
   end
 
 end
